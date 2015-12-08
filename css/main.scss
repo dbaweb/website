@@ -63,6 +63,21 @@ section{
 			padding: 0;
 			margin: -15% 0 0 0;
 		}
+		.arrow_down{
+			display: block;
+			margin: 150px auto 0 auto;
+			width: 50px;
+			height: 50px;
+			border-radius: 25px;
+			background: url('../img/fleche.png') no-repeat center center;
+			background-size: auto 60%;
+			background-color: rgba(255, 255, 255, 0.5);
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
 	}
 }
 
@@ -289,44 +304,51 @@ section{
 .contact{
 	background: url('../img/fond_contact.jpg') no-repeat center center;
 	background-size: 100% auto;
-	.container_contact{
-		margin: 0 20% 0 auto;
-		padding: 25px;
-		display: block;
-		position: relative;
-		width: 30%;
-		height: 40%;
-		text-align: center;
-		background-color: rgba(255, 255, 255, 0.8);
-		.contact_info{
-			font-family: calibri;
-			width: 90%;
-			.txt_left{
-				font-size: 12px;
-				font-weight: bold;
-				padding: 5px;
-				text-align: right;
-				width: 50%;
-				display: inline-block;
-				float: left;
-			}
-			.txt_right{
-				font-size: 12px;
-				padding: 5px;
-				width: 50%;
-				text-align: left;
-				display: inline-block;
-				float: left;
-			}
-		}
-		h1{
-			font-family: caviar_dreamsregular;
-			font-size: 2vw;
-			color: white;
-			text-align: center;
-			padding: 0;
-			margin-bottom: 2%;
+	.map{
+			width: 80%;
+			height: 60%;
+			background-color: white;
 			opacity: 0.8;
-		}
-	}
+		.container_contact{
+			margin: 0 20% 0 auto;
+			padding: 25px;
+			display: block;
+			position: relative;
+			width: 30%;
+			height: 40%;
+			text-align: center;
+			background-color: black;
+
+				.contact_info{
+					font-family: calibri;
+					width: 90%;
+					.txt_left{
+						font-size: 12px;
+						font-weight: bold;
+						padding: 5px;
+						text-align: right;
+						width: 50%;
+						display: inline-block;
+						float: left;
+					}
+					.txt_right{
+						font-size: 12px;
+						padding: 5px;
+						width: 50%;
+						text-align: left;
+						display: inline-block;
+						float: left;
+					}
+				}
+					h1{
+						font-family: caviar_dreamsregular;
+						font-size: 2vw;
+						color: white;
+						text-align: center;
+						padding: 0;
+						margin-bottom: 2%;
+						opacity: 0.8;
+					}
+				}
+			}
 }
