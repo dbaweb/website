@@ -343,14 +343,13 @@ section {
   position: relative;
   background: url("../img/fond_contact.jpg") no-repeat center center;
   background-size: 100% auto; }
-  .contact .map {
+  .contact #map {
     display: block;
     position: relative;
     width: 80%;
     height: 60%;
-    background-color: white;
     opacity: 0.8; }
-    .contact .map .container_contact {
+    .contact #map .container_contact {
       margin: 0 20% 0 auto;
       padding: 25px;
       display: block;
@@ -359,10 +358,10 @@ section {
       height: 40%;
       text-align: center;
       background-color: black; }
-      .contact .map .container_contact .contact_info {
+      .contact #map .container_contact .contact_info {
         font-family: calibri;
         width: 90%; }
-        .contact .map .container_contact .contact_info .txt_left {
+        .contact #map .container_contact .contact_info .txt_left {
           font-size: 12px;
           font-weight: bold;
           padding: 5px;
@@ -370,14 +369,14 @@ section {
           width: 50%;
           display: inline-block;
           float: left; }
-        .contact .map .container_contact .contact_info .txt_right {
+        .contact #map .container_contact .contact_info .txt_right {
           font-size: 12px;
           padding: 5px;
           width: 50%;
           text-align: left;
           display: inline-block;
           float: left; }
-      .contact .map .container_contact h1 {
+      .contact #map .container_contact h1 {
         font-family: caviar_dreamsregular;
         font-size: 2vw;
         color: white;

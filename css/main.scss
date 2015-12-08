@@ -305,12 +305,11 @@ section{
 	position: relative;
 	background: url('../img/fond_contact.jpg') no-repeat center center;
 	background-size: 100% auto;
-	.map{
+	#map{
 			display: block;
 			position: relative;
 			width: 80%;
 			height: 60%;
-			background-color: white;
 			opacity: 0.8;
 		.container_contact{
 			margin: 0 20% 0 auto;
