@@ -302,9 +302,12 @@ section{
 /* CONTACT */
 
 .contact{
+	position: relative;
 	background: url('../img/fond_contact.jpg') no-repeat center center;
 	background-size: 100% auto;
 	.map{
+			display: block;
+			position: relative;
 			width: 80%;
 			height: 60%;
 			background-color: white;
