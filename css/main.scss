@@ -308,10 +308,10 @@ section{
 	#map{
 			display: block;
 			position: relative;
-			width: 80%;
-			height: 60%;
+			width: 60%;
+			height: 100%;
 			opacity: 0.8;
-			margin: 0 auto;
+			float: right;
 		.container_contact{
 			margin: 0 20% 0 auto;
 			padding: 25px;
