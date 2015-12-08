@@ -1,0 +1,18 @@
+.parent {
+  position: relative; }
+
+.child.both {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+.child.horizontal {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0); }
+.child.vertical {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%); }
+
+/*# sourceMappingURL=mixin.css.map */
