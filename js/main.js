@@ -1,6 +1,12 @@
-(function($) {
+$(document).ready(function($) {
 
-	// Canvas Jauge for skills 
+	button_experience();
+	canvas();
+	init.map();
+	
+})(jQuery);
+
+// Canvas Jauge for skills 
 
 	var canvas = function() {
 
@@ -131,7 +137,14 @@
 	    	
 	};
 
-	button_experience();
-	canvas();
-	
-})(jQuery);
+
+	// Google Map
+
+	var map;
+		function initMap() {
+		  map = new google.maps.Map(document.getElementById('map'), {
+		    center: {lat: -34.397, lng: 150.644},
+		    zoom: 8
+		  });
+		}
+
