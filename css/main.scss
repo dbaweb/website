@@ -313,45 +313,4 @@ section{
 			opacity: 0.9;
 			float: right;
 	}
-		.container_contact{
-			margin: 0 20% 0 auto;
-			padding: 25px;
-			display: block;
-			position: relative;
-			width: 30%;
-			height: 40%;
-			text-align: center;
-			background-color: black;
-
-				.contact_info{
-					font-family: calibri;
-					width: 90%;
-					.txt_left{
-						font-size: 12px;
-						font-weight: bold;
-						padding: 5px;
-						text-align: right;
-						width: 50%;
-						display: inline-block;
-						float: left;
-					}
-					.txt_right{
-						font-size: 12px;
-						padding: 5px;
-						width: 50%;
-						text-align: left;
-						display: inline-block;
-						float: left;
-					}
-				}
-					h1{
-						font-family: caviar_dreamsregular;
-						font-size: 2vw;
-						color: white;
-						text-align: center;
-						padding: 0;
-						margin-bottom: 2%;
-						opacity: 0.8;
-					}
-				}
 }
