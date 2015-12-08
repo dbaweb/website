@@ -348,7 +348,8 @@ section {
     position: relative;
     width: 80%;
     height: 60%;
-    opacity: 0.8; }
+    opacity: 0.8;
+    margin: 0 auto; }
     .contact #map .container_contact {
       margin: 0 20% 0 auto;
       padding: 25px;
