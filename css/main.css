@@ -346,9 +346,9 @@ section {
   .contact #map {
     display: block;
     position: relative;
-    width: 60%;
+    width: 75%;
     height: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
     float: right; }
     .contact #map .container_contact {
       margin: 0 20% 0 auto;
