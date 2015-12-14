@@ -67,6 +67,7 @@
 							ctx_circle.beginPath();
 							ctx_circle.arc(center,center,radius,start_circle,dynamic, false);
 							ctx_circle.lineWidth = 15;
+							ctx_circle.lineCap = 'round';
 							ctx_circle.strokeStyle = ""+my_color+"";
 							ctx_circle.stroke();
 							

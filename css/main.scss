@@ -1,4 +1,5 @@
 @import 'font';
+@import 'color';
 @import 'mixin';
 @import 'mobile';
 
@@ -40,7 +41,7 @@ section{
 			font-family: League Gothic;
 			font-size: 25vw;
 			text-transform: uppercase;
-			color: #f68b24;
+			color: $orange;
 			padding: 0;
 			margin: 0;
 			&:before {
@@ -103,7 +104,7 @@ section{
 			margin: 0;
 			padding: 0;
 			&:first-child{
-				border-right: 2px solid grey;
+				border-right: 2px solid $gris2;
 				.profile{
 					text-align: center;
 					width: 100%;
@@ -113,7 +114,7 @@ section{
 						width: 150px;
 						margin: 5% auto;
 						border-radius: 50%;
-						border: 5px solid orange;
+						border: 5px solid $orange;
 						background: url('../img/profile2.png') no-repeat top center;
 						background-size: 100% auto;
 					}
@@ -124,10 +125,11 @@ section{
 					}
 					h1{
 						font-size: 4vw;
+						color: $gris2;
 					}
 					h2{
 						font-size: 1.5vw;
-						color: orange;
+						color: $orange;
 					}
 					p{
 						width: 80%;
@@ -138,7 +140,7 @@ section{
 				}
 			}
 			&:nth-child(2){
-				border-left: 2px solid grey;
+				border-left: 2px solid $gris2;
 				.skills{
 					position: relative;
 					width: 100%;
@@ -154,12 +156,12 @@ section{
 						.bottom{
 							position: absolute;
 							bottom: 0;
-							padding-left: 100px;
-							padding-bottom: 13px;
+							padding-left: 125px;
 							p{
 								font-family: calibri;
 								font-size: 16px;
-								margin: 1px 0;
+								margin: 1% 0;
+								color: $gris2;
 								text-transform: uppercase;
 							}
 						}
@@ -195,7 +197,7 @@ section{
 			height: 100%;
 			width: 25%;
 			margin: 0;padding: 0;
-			background-color: grey;
+			background-color: $gris2;
 			&:first-child{
 				background: url(../img/IslTournai.jpg) no-repeat bottom right;
 				background-size: 100% auto;
@@ -233,12 +235,12 @@ section{
 						font-family: calibri;
 						text-transform: uppercase;
 						font-size: 1vw;
-						color: orange;
+						color: $orange;
 					}
 					h2{
 						font-family: League Gothic;
 						font-size: 2vw;
-						color: grey;
+						color: $orange;
 					}
 				}
 				.txt_middle{
@@ -252,6 +254,7 @@ section{
 						text-transform: uppercase;
 						padding: 10px 0 0px 0;
 						margin: 0;
+						color: $gris2;
 					}
 					p,li{
 						font-family: calibri;
@@ -260,7 +263,7 @@ section{
 						display: block;
 						width: 20%;
 						height: 10px;
-						background-color: orange;
+						background-color: $orange;
 						margin: 10px 0 50px 0;
 					}
 					a{

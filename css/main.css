@@ -39,7 +39,7 @@ section { display: block; position: relative; height: 100%; width: 100%; }
 /* HOME */
 .home { background: url("../img/fond_home.jpg") no-repeat center center; background-size: 100% auto; }
 .home div { display: block; position: relative; height: 100%; width: 80%; opacity: 0.5; }
-.home div h1 { font-family: League Gothic; font-size: 25vw; text-transform: uppercase; color: #f68b24; padding: 0; margin: 0; }
+.home div h1 { font-family: League Gothic; font-size: 25vw; text-transform: uppercase; color: #F88C00; padding: 0; margin: 0; }
 .home div h1:before { position: absolute; overflow: hidden; white-space: nowrap; height: 0; color: black; content: attr(data-hover); animation: fill 6s linear 1; -webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */ animation-fill-mode: forwards; }
 .home div p { text-align: center; font-family: caviar_dreamsregular; font-size: 2vw; color: white; padding: 0; margin: -15% 0 0 0; }
 .home div .arrow_down { display: block; margin: 150px auto 0 auto; width: 50px; height: 50px; border-radius: 25px; background: url("../img/fleche.png") no-repeat center center; background-size: auto 60%; background-color: rgba(255, 255, 255, 0.5); -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); }
@@ -50,25 +50,25 @@ section { display: block; position: relative; height: 100%; width: 100%; }
 .skills { position: relative; }
 .skills .container { width: 80%; height: 70%; position: relative; }
 .skills .container .content { position: relative; display: inline-block; float: left; width: 50%; height: 100%; margin: 0; padding: 0; }
-.skills .container .content:first-child { border-right: 2px solid grey; }
+.skills .container .content:first-child { border-right: 2px solid #5E5E5E; }
 .skills .container .content:first-child .profile { text-align: center; width: 100%; }
-.skills .container .content:first-child .profile_img { display: block; height: 150px; width: 150px; margin: 5% auto; border-radius: 50%; border: 5px solid orange; background: url("../img/profile2.png") no-repeat top center; background-size: 100% auto; }
+.skills .container .content:first-child .profile_img { display: block; height: 150px; width: 150px; margin: 5% auto; border-radius: 50%; border: 5px solid #F88C00; background: url("../img/profile2.png") no-repeat top center; background-size: 100% auto; }
 .skills .container .content:first-child .profile h1, .skills .container .content:first-child .profile h2 { font-family: League Gothic; text-transform: uppercase; padding: 0; margin: 0; }
-.skills .container .content:first-child .profile h1 { font-size: 4vw; }
-.skills .container .content:first-child .profile h2 { font-size: 1.5vw; color: orange; }
+.skills .container .content:first-child .profile h1 { font-size: 4vw; color: #5E5E5E; }
+.skills .container .content:first-child .profile h2 { font-size: 1.5vw; color: #F88C00; }
 .skills .container .content:first-child .profile p { width: 80%; margin: 1vw auto; font-family: calibri; font-size: 0.8vw; }
-.skills .container .content:nth-child(2) { border-left: 2px solid grey; }
+.skills .container .content:nth-child(2) { border-left: 2px solid #5E5E5E; }
 .skills .container .content:nth-child(2) .skills { position: relative; width: 100%; height: 100%; }
 .skills .container .content:nth-child(2) .skills .skills_div { width: 85%; height: 85%; }
 .skills .container .content:nth-child(2) .skills #txt { height: 85%; width: 85%; position: relative; }
-.skills .container .content:nth-child(2) .skills #txt .bottom { position: absolute; bottom: 0; padding-left: 100px; padding-bottom: 13px; }
-.skills .container .content:nth-child(2) .skills #txt .bottom p { font-family: calibri; font-size: 16px; margin: 1px 0; text-transform: uppercase; }
+.skills .container .content:nth-child(2) .skills #txt .bottom { position: absolute; bottom: 0; padding-left: 125px; }
+.skills .container .content:nth-child(2) .skills #txt .bottom p { font-family: calibri; font-size: 16px; margin: 1% 0; color: #5E5E5E; text-transform: uppercase; }
 .skills .container .content:nth-child(2) .skills #circle { position: relative; z-index: 150; }
 
 /* EXPERIENCE */
 .experience { position: relative; z-index: 5; height: 100%; width: 100%; overflow: hidden; }
 .experience .container_article { position: absolute; top: 0; left: 0; height: 100%; width: 400%; overflow: hidden; }
-.experience .container_article .experience_article { position: relative; display: inline-block; float: left; height: 100%; width: 25%; margin: 0; padding: 0; background-color: grey; }
+.experience .container_article .experience_article { position: relative; display: inline-block; float: left; height: 100%; width: 25%; margin: 0; padding: 0; background-color: #5E5E5E; }
 .experience .container_article .experience_article:first-child { background: url(../img/IslTournai.jpg) no-repeat bottom right; background-size: 100% auto; }
 .experience .container_article .experience_article:nth-child(2) { background: url(../img/office.jpg) no-repeat bottom right; background-size: 100% auto; }
 .experience .container_article .experience_article:nth-child(3) { background: url(../img/office_reunion.jpg) no-repeat bottom right; background-size: 100% auto; }
@@ -78,12 +78,12 @@ section { display: block; position: relative; height: 100%; width: 100%; }
 .experience .container_article .experience_article .container .txt_top h1, .experience .container_article .experience_article .container .txt_top h2, .experience .container_article .experience_article .container .txt_top h3, .experience .container_article .experience_article .container .txt_top h4 { display: inline-block; }
 .experience .container_article .experience_article .container .txt_top .right { float: right; }
 .experience .container_article .experience_article .container .txt_top .left { float: left; }
-.experience .container_article .experience_article .container .txt_top h4 { font-family: calibri; text-transform: uppercase; font-size: 1vw; color: orange; }
-.experience .container_article .experience_article .container .txt_top h2 { font-family: League Gothic; font-size: 2vw; color: grey; }
+.experience .container_article .experience_article .container .txt_top h4 { font-family: calibri; text-transform: uppercase; font-size: 1vw; color: #F88C00; }
+.experience .container_article .experience_article .container .txt_top h2 { font-family: League Gothic; font-size: 2vw; color: #F88C00; }
 .experience .container_article .experience_article .container .txt_middle { display: block; position: relative; width: 100%; height: 90%; }
-.experience .container_article .experience_article .container .txt_middle h1 { font-family: League Gothic; font-size: 3.5vw; text-transform: uppercase; padding: 10px 0 0px 0; margin: 0; }
+.experience .container_article .experience_article .container .txt_middle h1 { font-family: League Gothic; font-size: 3.5vw; text-transform: uppercase; padding: 10px 0 0px 0; margin: 0; color: #5E5E5E; }
 .experience .container_article .experience_article .container .txt_middle p, .experience .container_article .experience_article .container .txt_middle li { font-family: calibri; }
-.experience .container_article .experience_article .container .txt_middle span { display: block; width: 20%; height: 10px; background-color: orange; margin: 10px 0 50px 0; }
+.experience .container_article .experience_article .container .txt_middle span { display: block; width: 20%; height: 10px; background-color: #F88C00; margin: 10px 0 50px 0; }
 .experience .container_article .experience_article .container .txt_middle a { float: right; }
 .experience .experience_nav { position: absolute; width: 100%; z-index: 100; }
 .experience .experience_nav button { position: relative; display: inline-block; z-index: 10; height: 50px; width: 50px; border: none; background: url("../img/fleche.png") no-repeat center center; background-color: rgba(255, 255, 255, 0.5); background-size: auto 60%; border-radius: 50%; }
