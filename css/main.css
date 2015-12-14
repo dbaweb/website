@@ -219,16 +219,19 @@ section {
             width: 85%;
             height: 85%; }
           .skills .container .content:nth-child(2) .skills #txt {
-            height: 20%;
-            width: 40%;
-            position: absolute;
-            top: 57.5%;
-            left: 52%; }
-            .skills .container .content:nth-child(2) .skills #txt p {
-              font-family: calibri;
-              font-size: 16px;
-              margin: 0 0 1px 0;
-              text-transform: uppercase; }
+            height: 85%;
+            width: 85%;
+            position: relative; }
+            .skills .container .content:nth-child(2) .skills #txt .bottom {
+              position: absolute;
+              bottom: 0;
+              padding-left: 100px;
+              padding-bottom: 13px; }
+              .skills .container .content:nth-child(2) .skills #txt .bottom p {
+                font-family: calibri;
+                font-size: 16px;
+                margin: 1px 0;
+                text-transform: uppercase; }
           .skills .container .content:nth-child(2) .skills #circle {
             position: relative;
             z-index: 150; }
