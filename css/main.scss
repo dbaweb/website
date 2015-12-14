@@ -148,7 +148,9 @@ section{
 					.skills_div{
 						width: 85%;
 						height: 85%;
-						#txt{
+					}
+				}
+					#txt{
 						height: 100%;
 						width: 100%;
 						position: relative;
@@ -164,9 +166,7 @@ section{
 								text-transform: uppercase;
 							}
 						}
-					}
-					}
-					
+
 					#circle{
 						position: relative;
 						z-index: 150;
