@@ -257,16 +257,16 @@ section {
       padding: 0; }
       .experience .container_article .experience_article:first-child {
         background: url(../img/IslTournai.jpg) no-repeat center center;
-        background-size: 100% auto; }
+        background-size: 100% 100%; }
       .experience .container_article .experience_article:nth-child(2) {
         background: url(../img/office.jpg) no-repeat center center;
-        background-size: 100% auto; }
+        background-size: 100% 100%; }
       .experience .container_article .experience_article:nth-child(3) {
         background: url(../img/office_reunion.jpg) no-repeat center center;
-        background-size: 100% auto; }
+        background-size: 100% 100%; }
       .experience .container_article .experience_article:nth-child(4) {
         background: url(../img/work_alone.jpg) no-repeat center center;
-        background-size: 100% auto; }
+        background-size: 100% 100%; }
       .experience .container_article .experience_article .container {
         width: 85%;
         height: 100%;
