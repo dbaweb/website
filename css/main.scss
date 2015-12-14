@@ -192,19 +192,19 @@ section{
 			width: 25%;
 			margin: 0;padding: 0;
 			&:first-child{
-				background: url(../img/IslTournai.jpg) center center;
+				background: url(../img/IslTournai.jpg) no-repeat center center;
 				background-size: 100% auto;
 			}
 			&:nth-child(2){
-				background: url(../img/office.jpg) center center;
+				background: url(../img/office.jpg) no-repeat center center;
 				background-size: 100% auto;
 			}
 			&:nth-child(3){
-				background: url(../img/office_reunion.jpg) center center;
+				background: url(../img/office_reunion.jpg) no-repeat center center;
 				background-size: 100% auto;
 			}
 			&:nth-child(4){
-				background: url(../img/work_alone.jpg) center center;
+				background: url(../img/work_alone.jpg) no-repeat center center;
 				background-size: 100% auto;
 			}
 			.container{
