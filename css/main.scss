@@ -29,7 +29,7 @@ section{
 
 .home{
 	background: url('../img/fond_home.jpg') no-repeat center center;
-	background-size: 100% 100%;
+	background-size: 100% auto;
 	div{
 		display: block;
 		position: relative;
@@ -191,21 +191,22 @@ section{
 			height: 100%;
 			width: 25%;
 			margin: 0;padding: 0;
+			background-color: grey;
 			&:first-child{
-				background: url(../img/IslTournai.jpg) no-repeat center center;
-				background-size: 100% 100%;
+				background: url(../img/IslTournai.jpg) no-repeat bottom right;
+				background-size: 100% auto;
 			}
 			&:nth-child(2){
-				background: url(../img/office.jpg) no-repeat center center;
-				background-size: 100% 100%;
+				background: url(../img/office.jpg) no-repeat bottom right;
+				background-size: 100% auto;
 			}
 			&:nth-child(3){
-				background: url(../img/office_reunion.jpg) no-repeat center center;
-				background-size: 100% 100%;
+				background: url(../img/office_reunion.jpg) no-repeat bottom right;
+				background-size: 100% auto;
 			}
 			&:nth-child(4){
-				background: url(../img/work_alone.jpg) no-repeat center center;
-				background-size: 100% 100%;
+				background: url(../img/work_alone.jpg) no-repeat bottom right;
+				background-size: 100% auto;
 			}
 			.container{
 				width: 85%;

@@ -113,7 +113,7 @@ section {
 /* HOME */
 .home {
   background: url("../img/fond_home.jpg") no-repeat center center;
-  background-size: 100% 100%; }
+  background-size: 100% auto; }
   .home div {
     display: block;
     position: relative;
@@ -254,19 +254,20 @@ section {
       height: 100%;
       width: 25%;
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      background-color: grey; }
       .experience .container_article .experience_article:first-child {
-        background: url(../img/IslTournai.jpg) no-repeat center center;
-        background-size: 100% 100%; }
+        background: url(../img/IslTournai.jpg) no-repeat bottom right;
+        background-size: 100% auto; }
       .experience .container_article .experience_article:nth-child(2) {
-        background: url(../img/office.jpg) no-repeat center center;
-        background-size: 100% 100%; }
+        background: url(../img/office.jpg) no-repeat bottom right;
+        background-size: 100% auto; }
       .experience .container_article .experience_article:nth-child(3) {
-        background: url(../img/office_reunion.jpg) no-repeat center center;
-        background-size: 100% 100%; }
+        background: url(../img/office_reunion.jpg) no-repeat bottom right;
+        background-size: 100% auto; }
       .experience .container_article .experience_article:nth-child(4) {
-        background: url(../img/work_alone.jpg) no-repeat center center;
-        background-size: 100% 100%; }
+        background: url(../img/work_alone.jpg) no-repeat bottom right;
+        background-size: 100% auto; }
       .experience .container_article .experience_article .container {
         width: 85%;
         height: 100%;
