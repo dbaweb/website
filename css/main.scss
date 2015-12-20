@@ -1,7 +1,10 @@
 @import 'font';
-@import 'color';
 @import 'mixin';
 @import 'mobile';
+
+$orange: #ea8853;
+$grey1: #999;
+$grey2: #222;
 
 html {
     box-sizing: border-box;
@@ -16,6 +19,7 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 section{
@@ -38,23 +42,12 @@ section{
 		width: 80%;
 		opacity: 0.5;
 		h1{
-			font-family: League Gothic;
-			font-size: 25vw;
+			font-family: arial;
+			font-size:15vw;
 			text-transform: uppercase;
-			color: $orange;
+			color: whiter;
 			padding: 0;
-			margin: 0;
-			&:before {
-			    position: absolute;
-			    overflow: hidden;
-			    white-space: nowrap;
-			    height: 0;
-			    color: black;
-			    content: attr(data-hover);
-			    animation: fill 6s linear 1;
-			    -webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
-    			animation-fill-mode: forwards;
-			}
+			margin: 0 auto;
 		}
 		p{
 			text-align: center;
@@ -62,30 +55,71 @@ section{
 			font-size: 2vw;
 			color: white;
 			padding: 0;
-			margin: -15% 0 0 0;
+			margin: 50px 0 0 0;
 		}
+		span .line_up,.line_down{
+			display: block;
+			position: relative;
+			width: 100%;
+			height: 5px;
+			overflow: hidden;
+			
+		}
+
+		.line_up{
+			&:after{
+				content: "";
+				display: block;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: white;
+				-webkit-animation: fillspan_up 5s linear 0s 1 normal; /* Chrome, Safari, Opera */
+				animation: fillspan_up 5s linear 0s 1 normal;
+			}
+			
+		}
+		
+		.line_down{
+			&:after{
+				content: "";
+				display: block;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: white;
+				-webkit-animation: fillspan_down 5s linear 0s 1 normal; /* Chrome, Safari, Opera */
+				animation: fillspan_down 5s linear 0s 1 normal;
+			}
+		}
+
 		.arrow_down{
 			display: block;
-			margin: 150px auto 0 auto;
+			position: absolute;
+			bottom: 0;left: 50%;
+			margin-bottom: 50px;	
 			width: 50px;
 			height: 50px;
 			border-radius: 25px;
 			background: url('../img/fleche.png') no-repeat center center;
 			background-size: auto 60%;
 			background-color: rgba(255, 255, 255, 0.5);
-			-webkit-transform: rotate(90deg);
-			-moz-transform: rotate(90deg);
-			-ms-transform: rotate(90deg);
-			-o-transform: rotate(90deg);
-			transform: rotate(90deg);
+			
 		}
 	}
 }
 
-@keyframes fill {
-  0%  { height: 100%; }
-  100% { height: 0%;   }
+@keyframes fillspan_down {
+	from{right:100%;}
+	to{right:0%;}
 }
+@keyframes fillspan_up {
+	from{left:100%;}
+	to{left:0%;}
+}
+
 
 /* SKILLS */
 
@@ -104,7 +138,7 @@ section{
 			margin: 0;
 			padding: 0;
 			&:first-child{
-				border-right: 2px solid $gris2;
+				border-right: 2px solid $grey1;
 				.profile{
 					text-align: center;
 					width: 100%;
@@ -125,7 +159,6 @@ section{
 					}
 					h1{
 						font-size: 4vw;
-						color: $gris2;
 					}
 					h2{
 						font-size: 1.5vw;
@@ -140,7 +173,7 @@ section{
 				}
 			}
 			&:nth-child(2){
-				border-left: 2px solid $gris2;
+				border-left: 2px solid $grey1;
 				.skills{
 					position: relative;
 					width: 100%;
@@ -149,24 +182,19 @@ section{
 						width: 85%;
 						height: 85%;
 					}
-				}
 					#txt{
-						height: 85%;
-						width: 85%;
-						position: relative;
-						.bottom{
-							position: absolute;
-							bottom: 0;
-							padding-left: 125px;
-							p{
-								font-family: calibri;
-								font-size: 16px;
-								margin: 1% 0;
-								color: $gris2;
-								text-transform: uppercase;
-							}
+						height: 20%;
+						width: 40%;
+						position: absolute;
+						top: 57.5%;
+						left: 52%;
+						p{
+							font-family: calibri;
+							font-size: 16px;
+							margin: 0 0 1px 0;
+							text-transform: uppercase;
 						}
-
+					}
 					#circle{
 						position: relative;
 						z-index: 150;
@@ -198,21 +226,20 @@ section{
 			height: 100%;
 			width: 25%;
 			margin: 0;padding: 0;
-			background-color: $gris2;
 			&:first-child{
-				background: url(../img/IslTournai.jpg) no-repeat bottom right;
+				background: url(../img/IslTournai.jpg) center center;
 				background-size: 100% auto;
 			}
 			&:nth-child(2){
-				background: url(../img/office.jpg) no-repeat bottom right;
+				background: url(../img/office.jpg) center center;
 				background-size: 100% auto;
 			}
 			&:nth-child(3){
-				background: url(../img/office_reunion.jpg) no-repeat bottom right;
+				background: url(../img/office_reunion.jpg) center center;
 				background-size: 100% auto;
 			}
 			&:nth-child(4){
-				background: url(../img/work_alone.jpg) no-repeat bottom right;
+				background: url(../img/work_alone.jpg) center center;
 				background-size: 100% auto;
 			}
 			.container{
@@ -241,7 +268,7 @@ section{
 					h2{
 						font-family: League Gothic;
 						font-size: 2vw;
-						color: $orange;
+						color: $grey2;
 					}
 				}
 				.txt_middle{
@@ -255,7 +282,6 @@ section{
 						text-transform: uppercase;
 						padding: 10px 0 0px 0;
 						margin: 0;
-						color: $gris2;
 					}
 					p,li{
 						font-family: calibri;
@@ -311,15 +337,55 @@ section{
 /* CONTACT */
 
 .contact{
-	position: relative;
 	background: url('../img/fond_contact.jpg') no-repeat center center;
 	background-size: 100% auto;
-	#map{
+	.map{
+			position: absolute;
+			bottom: 0; right: 0;
+			width: 80%;
+			height: 100%;
+			background-color: white;
+			opacity: 0.95;
+		.container_contact{
+			margin: 0 20% 0 auto;
+			padding: 25px;
 			display: block;
 			position: relative;
-			width: 75%;
-			height: 100%;
-			opacity: 0.9;
-			float: right;
-	}
+			width: 30%;
+			height: 40%;
+			text-align: center;
+			background-color: black;
+
+				.contact_info{
+					font-family: calibri;
+					width: 90%;
+					.txt_left{
+						font-size: 12px;
+						font-weight: bold;
+						padding: 5px;
+						text-align: right;
+						width: 50%;
+						display: inline-block;
+						float: left;
+					}
+					.txt_right{
+						font-size: 12px;
+						padding: 5px;
+						width: 50%;
+						text-align: left;
+						display: inline-block;
+						float: left;
+					}
+				}
+					h1{
+						font-family: caviar_dreamsregular;
+						font-size: 2vw;
+						color: white;
+						text-align: center;
+						padding: 0;
+						margin-bottom: 2%;
+						opacity: 0.8;
+					}
+				}
+			}
 }

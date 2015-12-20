@@ -67,7 +67,6 @@
 							ctx_circle.beginPath();
 							ctx_circle.arc(center,center,radius,start_circle,dynamic, false);
 							ctx_circle.lineWidth = 15;
-							ctx_circle.lineCap = 'round';
 							ctx_circle.strokeStyle = ""+my_color+"";
 							ctx_circle.stroke();
 							
@@ -134,17 +133,5 @@
 
 	button_experience();
 	canvas();
-
-	// Google map
-
-	var map;
-	function initMap() {
-	  map = new google.maps.Map(document.getElementById('map'), {
-	    center: {lat: 50.455043 , lng: 3.955804},
-	    zoom: 10
-	  });
-	}
-
-	initMap();
 	
 })(jQuery);

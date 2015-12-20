@@ -4,15 +4,18 @@
 	<meta charset="UTF-8">
 	<title>ADB Website</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 	<section class="home parent">
 		<div class="child both">
 			<span class="child both">
+				<span class="line_up" data-hover="line_up"></span>
 				<h1 data-hover="adb">adb</h1>
+				<span class="line_down" data-hover="line_down"></span>
 				<p>Web Developpement</p>
-				<span class="arrow_down"></span>
 			</span>
+			<span class="arrow_down"></span>
 		</div>
 	</section>
 	<section class="skills parent">
@@ -29,22 +32,21 @@
 			</div>
 			<div class="content">
 				<div class="skills parent" id="skills">
-					<div class="skills_div child both" data-mycolor="#F88C00" data-myval="90"></div>
-					<div class="skills_div child both" data-mycolor="#5E5E5E" data-myval="75"></div>
-					<div class="skills_div child both" data-mycolor="#F88C00" data-myval="65"></div>
-					<div class="skills_div child both" data-mycolor="#5E5E5E" data-myval="50"></div>
-					<div class="skills_div child both" data-mycolor="#F88C00" data-myval="70"></div>
-					<div class="skills_div child both" data-mycolor="#5E5E5E" data-myval="60"></div>
-					<div class="skills_div child both" data-mycolor="#F88C00" data-myval="60"></div>
-					<div id="txt" class="child both">
-						<div class="bottom child horizontal">
+					<div class="skills_div child both" data-mycolor="#ea8853" data-myval="90"></div>
+					<div class="skills_div child both" data-mycolor="#999" data-myval="75"></div>
+					<div class="skills_div child both" data-mycolor="#ea8853" data-myval="65"></div>
+					<div class="skills_div child both" data-mycolor="#999" data-myval="50"></div>
+					<div class="skills_div child both" data-mycolor="#ea8853" data-myval="70"></div>
+					<div class="skills_div child both" data-mycolor="#999" data-myval="60"></div>
+					<div class="skills_div child both" data-mycolor="#ea8853" data-myval="60"></div>
+					<div id="txt">
+						<div class="bottom">
 							<p>html&css</p>
 							<p>javascript</p>
 							<p>jquery</p>
 							<p>php&mysql</p>
 							<p>photoshop</p>
 							<p>illustrator</p>
-							<p>CMS</p>
 						</div>
 					</div>
 				</div>
@@ -146,11 +148,34 @@
 		</div>
 	</section>
 	<section class="contact parent">
-		<div id="map"></div>
+		<div class="map" id="map"> 
+			<div class="container_contact child vertical">
+				<h1>Contact</h1>
+				<div class="contact_info">
+					<div class="txt_left">
+						<p>Phone :</p>
+						<p>Mail :</p>
+						<p>Adress :</p>
+					</div>
+					<div class="txt_right">
+						<p>0474785158</p>
+						<p>deboeck.arnaud@gmail.com</p>
+						<p>38, Rue de la raquette <br>7000 Mons</p>
+					</div>
+				</div>
+				<div class="social_network">
+					<span class="facebook"></span>
+					<span class="twitter"></span>
+					<span class="google+"></span>
+					<span class="Linkedin"></span>
+				</div>
+			</div>
+		</div>
 		<footer></footer>
 	</section>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1XVqHRNshPczOhVa8VSW11nb9rBXuxTU"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1XVqHRNshPczOhVa8VSW11nb9rBXuxTU&callback=initMap"></script>
 	<script src="js/main.js" type="text/javascript"></script>
+	<script src="js/map.js" type="text/javascript"></script>
+	
 </body>
 </html>
