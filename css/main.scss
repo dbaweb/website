@@ -97,15 +97,16 @@ section{
 
 		.arrow_down{
 			display: block;
-			position: absolute;
-			bottom: 0;left: 50%;
-			margin-bottom: 50px;	
+			position: relative;
+			margin: 58% auto 50px auto;	
 			width: 50px;
 			height: 50px;
 			border-radius: 25px;
 			background: url('../img/fleche.png') no-repeat center center;
 			background-size: auto 60%;
-			background-color: rgba(255, 255, 255, 0.5);
+			-ms-transform: rotate(90deg); /* IE 9 */
+    		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    		transform: rotate(90deg);
 			
 		}
 	}
@@ -183,16 +184,19 @@ section{
 						height: 85%;
 					}
 					#txt{
-						height: 20%;
-						width: 40%;
-						position: absolute;
-						top: 57.5%;
-						left: 52%;
-						p{
-							font-family: calibri;
-							font-size: 16px;
-							margin: 0 0 1px 0;
-							text-transform: uppercase;
+						height: 85%;
+						width: 85%;
+						position: relative;
+						.bottom{
+							width: 45%;
+							position: absolute;
+							bottom: 0; right: 0;
+							p{
+								font-family: calibri;
+								font-size: 16px;
+								margin: 0 0 1px 0;
+								text-transform: uppercase;
+							}
 						}
 					}
 					#circle{
@@ -203,6 +207,21 @@ section{
 			}
 		}
 	}
+
+	.arrow_down{
+			display: block;
+			position: relative;
+			margin: 0 auto;	
+			width: 50px;
+			height: 50px;
+			border-radius: 25px;
+			background: url('../img/fleche.png') no-repeat center center;
+			background-size: auto 60%;
+			-ms-transform: rotate(90deg); /* IE 9 */
+    		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    		transform: rotate(90deg);
+			
+		}
 }
 
 /* EXPERIENCE */
@@ -339,53 +358,41 @@ section{
 .contact{
 	background: url('../img/fond_contact.jpg') no-repeat center center;
 	background-size: 100% auto;
-	.map{
-			position: absolute;
-			bottom: 0; right: 0;
-			width: 80%;
-			height: 100%;
-			background-color: white;
-			opacity: 0.95;
-		.container_contact{
-			margin: 0 20% 0 auto;
-			padding: 25px;
-			display: block;
-			position: relative;
-			width: 30%;
-			height: 40%;
-			text-align: center;
-			background-color: black;
-
-				.contact_info{
-					font-family: calibri;
-					width: 90%;
-					.txt_left{
-						font-size: 12px;
-						font-weight: bold;
-						padding: 5px;
-						text-align: right;
-						width: 50%;
-						display: inline-block;
-						float: left;
-					}
-					.txt_right{
-						font-size: 12px;
-						padding: 5px;
-						width: 50%;
-						text-align: left;
-						display: inline-block;
-						float: left;
-					}
-				}
-					h1{
-						font-family: caviar_dreamsregular;
-						font-size: 2vw;
-						color: white;
-						text-align: center;
-						padding: 0;
-						margin-bottom: 2%;
-						opacity: 0.8;
-					}
-				}
+	.container_contact{
+		position: relative;
+		height: 60%;
+		width: 60%;
+		background-color: white;
+		opacity: 0.8;
+		.map{
+				position: absolute;
+				top: 0; right: 0;
+				width: 95%;
+				height: 100%;
+				background-color: white;
+				opacity: 0.95;
 			}
+		.content_contact{
+				position: absolute;
+				bottom:0; left: 0;
+				width: 5%;
+				height: 50%;
+				opacity: 0.95;
+				ul{
+					height: 100%;
+					width: 100%;
+					text-decoration: none;
+					margin: 0; padding: 0;
+
+					li{
+						display: block;
+						width: 100%;
+						height: 20%;
+						border-top: 2px solid grey;
+						margin: 0; padding: 0;
+					}
+
+				}
+		}
+	}
 }

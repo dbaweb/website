@@ -1,408 +1,104 @@
 /* Regular */
-@font-face {
-  font-family: 'League Gothic';
-  src: url("../font/LeagueGothic/leaguegothic-regular-webfont.eot");
-  src: url("../font/LeagueGothic/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/LeagueGothic/leaguegothic-regular-webfont.woff") format("woff"), url("../font/LeagueGothic/leaguegothic-regular-webfont.ttf") format("truetype"), url("../font/LeagueGothic/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+@font-face { font-family: 'League Gothic'; src: url("../font/LeagueGothic/leaguegothic-regular-webfont.eot"); src: url("../font/LeagueGothic/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/LeagueGothic/leaguegothic-regular-webfont.woff") format("woff"), url("../font/LeagueGothic/leaguegothic-regular-webfont.ttf") format("truetype"), url("../font/LeagueGothic/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg"); font-weight: normal; font-style: normal; }
 /* Italic */
-@font-face {
-  font-family: 'League Gothic Italic';
-  src: url("../font/LeagueGothic/leaguegothic-italic-webfont.eot");
-  src: url("../font/LeagueGothic/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/LeagueGothic/leaguegothic-italic-webfont.woff") format("woff"), url("../font/LeagueGothic/leaguegothic-italic-webfont.ttf") format("truetype"), url("../font/LeagueGothic/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
-  font-weight: normal;
-  font-style: italic; }
+@font-face { font-family: 'League Gothic Italic'; src: url("../font/LeagueGothic/leaguegothic-italic-webfont.eot"); src: url("../font/LeagueGothic/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/LeagueGothic/leaguegothic-italic-webfont.woff") format("woff"), url("../font/LeagueGothic/leaguegothic-italic-webfont.ttf") format("truetype"), url("../font/LeagueGothic/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg"); font-weight: normal; font-style: italic; }
 /* Condensed */
-@font-face {
-  font-family: 'League Gothic Condensed';
-  src: url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.eot");
-  src: url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.woff") format("woff"), url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.ttf") format("truetype"), url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+@font-face { font-family: 'League Gothic Condensed'; src: url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.eot"); src: url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.woff") format("woff"), url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.ttf") format("truetype"), url("../font/LeagueGothic/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg") format("svg"); font-weight: normal; font-style: normal; }
 /* Condensed Italic */
-@font-face {
-  font-family: 'League Gothic Condensed Italic';
-  src: url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.eot");
-  src: url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.woff") format("woff"), url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.ttf") format("truetype"), url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg") format("svg");
-  font-weight: normal;
-  font-style: italic; }
+@font-face { font-family: 'League Gothic Condensed Italic'; src: url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.eot"); src: url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.woff") format("woff"), url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.ttf") format("truetype"), url("../font/LeagueGothic/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg") format("svg"); font-weight: normal; font-style: italic; }
 /*Regular*/
-@font-face {
-  font-family: 'caviar_dreamsregular';
-  src: url("../font/CaviarDreams/CaviarDreams-webfont.eot");
-  src: url("../font/CaviarDreams/CaviarDreams-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDreams/CaviarDreams-webfont.woff") format("woff"), url("../font/CaviarDreams/CaviarDreams-webfont.ttf") format("truetype"), url("../font/CaviarDreams/CaviarDreams-webfont.svg#caviar_dreamsregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+@font-face { font-family: 'caviar_dreamsregular'; src: url("../font/CaviarDreams/CaviarDreams-webfont.eot"); src: url("../font/CaviarDreams/CaviarDreams-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDreams/CaviarDreams-webfont.woff") format("woff"), url("../font/CaviarDreams/CaviarDreams-webfont.ttf") format("truetype"), url("../font/CaviarDreams/CaviarDreams-webfont.svg#caviar_dreamsregular") format("svg"); font-weight: normal; font-style: normal; }
 /*Italic*/
-@font-face {
-  font-family: 'caviar_dreamsitalic';
-  src: url("../font/CaviarDreams/CaviarDreams_Italic-webfont.eot");
-  src: url("../font/CaviarDreams/CaviarDreams_Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDreams/CaviarDreams_Italic-webfont.woff") format("woff"), url("../font/CaviarDreams/CaviarDreams_Italic-webfont.ttf") format("truetype"), url("../font/CaviarDreams/CaviarDreams_Italic-webfont.svg#caviar_dreamsitalic") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+@font-face { font-family: 'caviar_dreamsitalic'; src: url("../font/CaviarDreams/CaviarDreams_Italic-webfont.eot"); src: url("../font/CaviarDreams/CaviarDreams_Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDreams/CaviarDreams_Italic-webfont.woff") format("woff"), url("../font/CaviarDreams/CaviarDreams_Italic-webfont.ttf") format("truetype"), url("../font/CaviarDreams/CaviarDreams_Italic-webfont.svg#caviar_dreamsitalic") format("svg"); font-weight: normal; font-style: normal; }
 /*Bold*/
-@font-face {
-  font-family: 'caviar_dreamsbold';
-  src: url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.eot");
-  src: url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.woff") format("woff"), url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.ttf") format("truetype"), url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+@font-face { font-family: 'caviar_dreamsbold'; src: url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.eot"); src: url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.woff") format("woff"), url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.ttf") format("truetype"), url("../font/CaviarDreams/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold") format("svg"); font-weight: normal; font-style: normal; }
 /*Bold Italic*/
-@font-face {
-  font-family: 'caviar_dreamsbold_italic';
-  src: url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.eot");
-  src: url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.woff") format("woff"), url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.ttf") format("truetype"), url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.svg#caviar_dreamsbold_italic") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+@font-face { font-family: 'caviar_dreamsbold_italic'; src: url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.eot"); src: url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.woff") format("woff"), url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.ttf") format("truetype"), url("../font/CaviarDreams/CaviarDreams_BoldItalic-webfont.svg#caviar_dreamsbold_italic") format("svg"); font-weight: normal; font-style: normal; }
 /*Regular*/
-@font-face {
-  font-family: 'calibri';
-  src: url("../font/Calibri/Calibri.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-.parent {
-  position: relative; }
+@font-face { font-family: 'calibri'; src: url("../font/Calibri/Calibri.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+.parent { position: relative; }
 
-.child.both {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-.child.horizontal {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0); }
-.child.vertical {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%); }
+.child.both { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.child.horizontal { position: absolute; left: 50%; transform: translate(-50%, 0); }
+.child.vertical { position: absolute; top: 50%; transform: translate(0, -50%); }
 
-@media screen and (max-width: 480px) {
-  .contact, .home {
-    background-size: auto 100% !important; }
+@media screen and (max-width: 480px) { .contact, .home { background-size: auto 100% !important; }
+  .home h1 { font-size: 45vw !important; }
+  .home p { font-size: 4vw !important; }
+  .contact div { width: 75% !important; }
+  .contact div h1 { font-size: 7vw !important; }
+  .contact div input, .contact div textarea { width: 100% !important; } }
+html { box-sizing: border-box; }
 
-  .home h1 {
-    font-size: 45vw !important; }
-  .home p {
-    font-size: 4vw !important; }
+*, *:before, *:after { box-sizing: inherit; }
 
-  .contact div {
-    width: 75% !important; }
-    .contact div h1 {
-      font-size: 7vw !important; }
-    .contact div input, .contact div textarea {
-      width: 100% !important; } }
-html {
-  box-sizing: border-box; }
+html, body { padding: 0; margin: 0; height: 100%; width: 100%; overflow-x: hidden; }
 
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-html, body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden; }
-
-section {
-  display: block;
-  position: relative;
-  height: 100%;
-  width: 100%; }
+section { display: block; position: relative; height: 100%; width: 100%; }
 
 /* HOME */
-.home {
-  background: url("../img/fond_home.jpg") no-repeat center center;
-  background-size: 100% auto; }
-  .home div {
-    display: block;
-    position: relative;
-    height: 100%;
-    width: 80%;
-    opacity: 0.5; }
-    .home div h1 {
-      font-family: arial;
-      font-size: 15vw;
-      text-transform: uppercase;
-      color: whiter;
-      padding: 0;
-      margin: 0 auto; }
-    .home div p {
-      text-align: center;
-      font-family: caviar_dreamsregular;
-      font-size: 2vw;
-      color: white;
-      padding: 0;
-      margin: 50px 0 0 0; }
-    .home div span .line_up, .home div .line_down {
-      display: block;
-      position: relative;
-      width: 100%;
-      height: 5px;
-      overflow: hidden; }
-    .home div .line_up:after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      -webkit-animation: fillspan_up 5s linear 0s 1 normal;
-      /* Chrome, Safari, Opera */
-      animation: fillspan_up 5s linear 0s 1 normal; }
-    .home div .line_down:after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      -webkit-animation: fillspan_down 5s linear 0s 1 normal;
-      /* Chrome, Safari, Opera */
-      animation: fillspan_down 5s linear 0s 1 normal; }
-    .home div .arrow_down {
-      display: block;
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      margin-bottom: 50px;
-      width: 50px;
-      height: 50px;
-      border-radius: 25px;
-      background: url("../img/fleche.png") no-repeat center center;
-      background-size: auto 60%;
-      background-color: rgba(255, 255, 255, 0.5); }
+.home { background: url("../img/fond_home.jpg") no-repeat center center; background-size: 100% auto; }
+.home div { display: block; position: relative; height: 100%; width: 80%; opacity: 0.5; }
+.home div h1 { font-family: arial; font-size: 15vw; text-transform: uppercase; color: whiter; padding: 0; margin: 0 auto; }
+.home div p { text-align: center; font-family: caviar_dreamsregular; font-size: 2vw; color: white; padding: 0; margin: 50px 0 0 0; }
+.home div span .line_up, .home div .line_down { display: block; position: relative; width: 100%; height: 5px; overflow: hidden; }
+.home div .line_up:after { content: ""; display: block; position: absolute; top: 0; width: 100%; height: 100%; background-color: white; -webkit-animation: fillspan_up 5s linear 0s 1 normal; /* Chrome, Safari, Opera */ animation: fillspan_up 5s linear 0s 1 normal; }
+.home div .line_down:after { content: ""; display: block; position: absolute; top: 0; width: 100%; height: 100%; background-color: white; -webkit-animation: fillspan_down 5s linear 0s 1 normal; /* Chrome, Safari, Opera */ animation: fillspan_down 5s linear 0s 1 normal; }
+.home div .arrow_down { display: block; position: relative; margin: 58% auto 50px auto; width: 50px; height: 50px; border-radius: 25px; background: url("../img/fleche.png") no-repeat center center; background-size: auto 60%; -ms-transform: rotate(90deg); /* IE 9 */ -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */ transform: rotate(90deg); }
 
-@keyframes fillspan_down {
-  from {
-    right: 100%; }
-  to {
-    right: 0%; } }
-@keyframes fillspan_up {
-  from {
-    left: 100%; }
-  to {
-    left: 0%; } }
+@keyframes fillspan_down { from { right: 100%; }
+  to { right: 0%; } }
+@keyframes fillspan_up { from { left: 100%; }
+  to { left: 0%; } }
 /* SKILLS */
-.skills {
-  position: relative; }
-  .skills .container {
-    width: 80%;
-    height: 70%;
-    position: relative; }
-    .skills .container .content {
-      position: relative;
-      display: inline-block;
-      float: left;
-      width: 50%;
-      height: 100%;
-      margin: 0;
-      padding: 0; }
-      .skills .container .content:first-child {
-        border-right: 2px solid #999; }
-        .skills .container .content:first-child .profile {
-          text-align: center;
-          width: 100%; }
-          .skills .container .content:first-child .profile_img {
-            display: block;
-            height: 150px;
-            width: 150px;
-            margin: 5% auto;
-            border-radius: 50%;
-            border: 5px solid #ea8853;
-            background: url("../img/profile2.png") no-repeat top center;
-            background-size: 100% auto; }
-          .skills .container .content:first-child .profile h1, .skills .container .content:first-child .profile h2 {
-            font-family: League Gothic;
-            text-transform: uppercase;
-            padding: 0;
-            margin: 0; }
-          .skills .container .content:first-child .profile h1 {
-            font-size: 4vw; }
-          .skills .container .content:first-child .profile h2 {
-            font-size: 1.5vw;
-            color: #ea8853; }
-          .skills .container .content:first-child .profile p {
-            width: 80%;
-            margin: 1vw auto;
-            font-family: calibri;
-            font-size: 0.8vw; }
-      .skills .container .content:nth-child(2) {
-        border-left: 2px solid #999; }
-        .skills .container .content:nth-child(2) .skills {
-          position: relative;
-          width: 100%;
-          height: 100%; }
-          .skills .container .content:nth-child(2) .skills .skills_div {
-            width: 85%;
-            height: 85%; }
-          .skills .container .content:nth-child(2) .skills #txt {
-            height: 20%;
-            width: 40%;
-            position: absolute;
-            top: 57.5%;
-            left: 52%; }
-            .skills .container .content:nth-child(2) .skills #txt p {
-              font-family: calibri;
-              font-size: 16px;
-              margin: 0 0 1px 0;
-              text-transform: uppercase; }
-          .skills .container .content:nth-child(2) .skills #circle {
-            position: relative;
-            z-index: 150; }
+.skills { position: relative; }
+.skills .container { width: 80%; height: 70%; position: relative; }
+.skills .container .content { position: relative; display: inline-block; float: left; width: 50%; height: 100%; margin: 0; padding: 0; }
+.skills .container .content:first-child { border-right: 2px solid #999; }
+.skills .container .content:first-child .profile { text-align: center; width: 100%; }
+.skills .container .content:first-child .profile_img { display: block; height: 150px; width: 150px; margin: 5% auto; border-radius: 50%; border: 5px solid #ea8853; background: url("../img/profile2.png") no-repeat top center; background-size: 100% auto; }
+.skills .container .content:first-child .profile h1, .skills .container .content:first-child .profile h2 { font-family: League Gothic; text-transform: uppercase; padding: 0; margin: 0; }
+.skills .container .content:first-child .profile h1 { font-size: 4vw; }
+.skills .container .content:first-child .profile h2 { font-size: 1.5vw; color: #ea8853; }
+.skills .container .content:first-child .profile p { width: 80%; margin: 1vw auto; font-family: calibri; font-size: 0.8vw; }
+.skills .container .content:nth-child(2) { border-left: 2px solid #999; }
+.skills .container .content:nth-child(2) .skills { position: relative; width: 100%; height: 100%; }
+.skills .container .content:nth-child(2) .skills .skills_div { width: 85%; height: 85%; }
+.skills .container .content:nth-child(2) .skills #txt { height: 85%; width: 85%; position: relative; }
+.skills .container .content:nth-child(2) .skills #txt .bottom { width: 45%; position: absolute; bottom: 0; right: 0; }
+.skills .container .content:nth-child(2) .skills #txt .bottom p { font-family: calibri; font-size: 16px; margin: 0 0 1px 0; text-transform: uppercase; }
+.skills .container .content:nth-child(2) .skills #circle { position: relative; z-index: 150; }
+.skills .arrow_down { display: block; position: relative; margin: 0 auto; width: 50px; height: 50px; border-radius: 25px; background: url("../img/fleche.png") no-repeat center center; background-size: auto 60%; -ms-transform: rotate(90deg); /* IE 9 */ -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */ transform: rotate(90deg); }
 
 /* EXPERIENCE */
-.experience {
-  position: relative;
-  z-index: 5;
-  height: 100%;
-  width: 100%;
-  overflow: hidden; }
-  .experience .container_article {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 400%;
-    overflow: hidden; }
-    .experience .container_article .experience_article {
-      position: relative;
-      display: inline-block;
-      float: left;
-      height: 100%;
-      width: 25%;
-      margin: 0;
-      padding: 0; }
-      .experience .container_article .experience_article:first-child {
-        background: url(../img/IslTournai.jpg) center center;
-        background-size: 100% auto; }
-      .experience .container_article .experience_article:nth-child(2) {
-        background: url(../img/office.jpg) center center;
-        background-size: 100% auto; }
-      .experience .container_article .experience_article:nth-child(3) {
-        background: url(../img/office_reunion.jpg) center center;
-        background-size: 100% auto; }
-      .experience .container_article .experience_article:nth-child(4) {
-        background: url(../img/work_alone.jpg) center center;
-        background-size: 100% auto; }
-      .experience .container_article .experience_article .container {
-        width: 85%;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 7.5% 15% 7.5% 15%; }
-        .experience .container_article .experience_article .container .txt_top {
-          width: 100%;
-          height: 10%; }
-          .experience .container_article .experience_article .container .txt_top h1, .experience .container_article .experience_article .container .txt_top h2, .experience .container_article .experience_article .container .txt_top h3, .experience .container_article .experience_article .container .txt_top h4 {
-            display: inline-block; }
-          .experience .container_article .experience_article .container .txt_top .right {
-            float: right; }
-          .experience .container_article .experience_article .container .txt_top .left {
-            float: left; }
-          .experience .container_article .experience_article .container .txt_top h4 {
-            font-family: calibri;
-            text-transform: uppercase;
-            font-size: 1vw;
-            color: #ea8853; }
-          .experience .container_article .experience_article .container .txt_top h2 {
-            font-family: League Gothic;
-            font-size: 2vw;
-            color: #222; }
-        .experience .container_article .experience_article .container .txt_middle {
-          display: block;
-          position: relative;
-          width: 100%;
-          height: 90%; }
-          .experience .container_article .experience_article .container .txt_middle h1 {
-            font-family: League Gothic;
-            font-size: 3.5vw;
-            text-transform: uppercase;
-            padding: 10px 0 0px 0;
-            margin: 0; }
-          .experience .container_article .experience_article .container .txt_middle p, .experience .container_article .experience_article .container .txt_middle li {
-            font-family: calibri; }
-          .experience .container_article .experience_article .container .txt_middle span {
-            display: block;
-            width: 20%;
-            height: 10px;
-            background-color: #ea8853;
-            margin: 10px 0 50px 0; }
-          .experience .container_article .experience_article .container .txt_middle a {
-            float: right; }
-  .experience .experience_nav {
-    position: absolute;
-    width: 100%;
-    z-index: 100; }
-    .experience .experience_nav button {
-      position: relative;
-      display: inline-block;
-      z-index: 10;
-      height: 50px;
-      width: 50px;
-      border: none;
-      background: url("../img/fleche.png") no-repeat center center;
-      background-color: rgba(255, 255, 255, 0.5);
-      background-size: auto 60%;
-      border-radius: 50%; }
-    .experience .experience_nav .left {
-      float: left;
-      margin-left: 50px;
-      -webkit-transform: rotate(180deg);
-      -moz-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      -o-transform: rotate(180deg);
-      transform: rotate(180deg); }
-    .experience .experience_nav .right {
-      float: right;
-      margin-right: 50px; }
+.experience { position: relative; z-index: 5; height: 100%; width: 100%; overflow: hidden; }
+.experience .container_article { position: absolute; top: 0; left: 0; height: 100%; width: 400%; overflow: hidden; }
+.experience .container_article .experience_article { position: relative; display: inline-block; float: left; height: 100%; width: 25%; margin: 0; padding: 0; }
+.experience .container_article .experience_article:first-child { background: url(../img/IslTournai.jpg) center center; background-size: 100% auto; }
+.experience .container_article .experience_article:nth-child(2) { background: url(../img/office.jpg) center center; background-size: 100% auto; }
+.experience .container_article .experience_article:nth-child(3) { background: url(../img/office_reunion.jpg) center center; background-size: 100% auto; }
+.experience .container_article .experience_article:nth-child(4) { background: url(../img/work_alone.jpg) center center; background-size: 100% auto; }
+.experience .container_article .experience_article .container { width: 85%; height: 100%; background-color: rgba(255, 255, 255, 0.8); padding: 7.5% 15% 7.5% 15%; }
+.experience .container_article .experience_article .container .txt_top { width: 100%; height: 10%; }
+.experience .container_article .experience_article .container .txt_top h1, .experience .container_article .experience_article .container .txt_top h2, .experience .container_article .experience_article .container .txt_top h3, .experience .container_article .experience_article .container .txt_top h4 { display: inline-block; }
+.experience .container_article .experience_article .container .txt_top .right { float: right; }
+.experience .container_article .experience_article .container .txt_top .left { float: left; }
+.experience .container_article .experience_article .container .txt_top h4 { font-family: calibri; text-transform: uppercase; font-size: 1vw; color: #ea8853; }
+.experience .container_article .experience_article .container .txt_top h2 { font-family: League Gothic; font-size: 2vw; color: #222; }
+.experience .container_article .experience_article .container .txt_middle { display: block; position: relative; width: 100%; height: 90%; }
+.experience .container_article .experience_article .container .txt_middle h1 { font-family: League Gothic; font-size: 3.5vw; text-transform: uppercase; padding: 10px 0 0px 0; margin: 0; }
+.experience .container_article .experience_article .container .txt_middle p, .experience .container_article .experience_article .container .txt_middle li { font-family: calibri; }
+.experience .container_article .experience_article .container .txt_middle span { display: block; width: 20%; height: 10px; background-color: #ea8853; margin: 10px 0 50px 0; }
+.experience .container_article .experience_article .container .txt_middle a { float: right; }
+.experience .experience_nav { position: absolute; width: 100%; z-index: 100; }
+.experience .experience_nav button { position: relative; display: inline-block; z-index: 10; height: 50px; width: 50px; border: none; background: url("../img/fleche.png") no-repeat center center; background-color: rgba(255, 255, 255, 0.5); background-size: auto 60%; border-radius: 50%; }
+.experience .experience_nav .left { float: left; margin-left: 50px; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
+.experience .experience_nav .right { float: right; margin-right: 50px; }
 
 /* CONTACT */
-.contact {
-  background: url("../img/fond_contact.jpg") no-repeat center center;
-  background-size: 100% auto; }
-  .contact .map {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 80%;
-    height: 100%;
-    background-color: white;
-    opacity: 0.95; }
-    .contact .map .container_contact {
-      margin: 0 20% 0 auto;
-      padding: 25px;
-      display: block;
-      position: relative;
-      width: 30%;
-      height: 40%;
-      text-align: center;
-      background-color: black; }
-      .contact .map .container_contact .contact_info {
-        font-family: calibri;
-        width: 90%; }
-        .contact .map .container_contact .contact_info .txt_left {
-          font-size: 12px;
-          font-weight: bold;
-          padding: 5px;
-          text-align: right;
-          width: 50%;
-          display: inline-block;
-          float: left; }
-        .contact .map .container_contact .contact_info .txt_right {
-          font-size: 12px;
-          padding: 5px;
-          width: 50%;
-          text-align: left;
-          display: inline-block;
-          float: left; }
-      .contact .map .container_contact h1 {
-        font-family: caviar_dreamsregular;
-        font-size: 2vw;
-        color: white;
-        text-align: center;
-        padding: 0;
-        margin-bottom: 2%;
-        opacity: 0.8; }
+.contact { background: url("../img/fond_contact.jpg") no-repeat center center; background-size: 100% auto; }
+.contact .container_contact { position: relative; height: 60%; width: 60%; background-color: white; opacity: 0.8; }
+.contact .container_contact .map { position: absolute; top: 0; right: 0; width: 95%; height: 100%; background-color: white; opacity: 0.95; }
+.contact .container_contact .content_contact { position: absolute; bottom: 0; left: 0; width: 5%; height: 50%; opacity: 0.95; }
+.contact .container_contact .content_contact ul { height: 100%; width: 100%; text-decoration: none; margin: 0; padding: 0; }
+.contact .container_contact .content_contact ul li { display: block; width: 100%; height: 20%; border-top: 2px solid grey; margin: 0; padding: 0; }
