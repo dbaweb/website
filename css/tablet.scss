@@ -1,0 +1,165 @@
+@include tablet{
+	/* SKILLS */
+
+	.section_skills{
+		.container_skills{
+			.content_skills{
+				display: inline-block;
+				width: 50%;
+				&:first-child{
+					height: 50%;
+					border-right: 2px solid $grey1;
+					padding-left: 7%;
+					.profile{
+						padding-left: 15%;
+						&_img{
+						}
+						h1,h2{
+							font-size: 3vw;
+						}
+						h1{
+						}
+						h2{
+						}
+						p{
+							width: 90%;
+							margin: 1vw auto;
+							font-size: 1.2vw;
+						}
+					}
+				}
+				&:nth-child(2){
+					height: 50%;
+					.skills{
+						height: 75%;
+						width: 80%;
+						padding-right: 5%;
+						span{
+							display: block;
+							width: 100%;
+							height: 20%;
+							text-align: center;
+							h1{
+								font-family: 'oswald', sans-serif;
+								font-weight: 700;
+								font-size: 3vw;
+								padding-bottom: 5%;
+							}
+						}
+						.skills_div{
+							position: relative;
+							display: inline-block;
+							width: 32%;
+							height: 40%;
+							margin: 0 auto;
+						}
+						#circle{
+						}
+					}
+				}
+			}
+		}
+	}
+	/* EXPERIENCE */
+
+	.section_experience{
+				.experience_article{
+					&:first-child{
+						background-position: center center;
+					background-size:  auto 100%;
+				}
+				&:nth-child(2){
+					background-position: center center;
+					background-size: auto 100%;
+				}
+				&:nth-child(3){
+					background-position: center center;
+					background-size: auto 100%;
+				}
+				&:nth-child(4){
+					background-position: center center;
+					background-size: auto 100%;
+				}
+					.container{
+						height: 112%;
+						.content{
+							height: 80%;
+							width: 60%;
+							.txt_top{
+								height: 10%;
+								h1,h2,h3,h4{
+								}
+								.right{
+								}
+								.left{
+								}
+								h4{
+								}
+								h2{
+								}
+							}
+							.txt_middle{
+								h1{
+								}
+								p,li{
+									font-size: 1.5vw;
+								}
+								span.line{
+								}
+								a{
+								}
+							}
+						}
+						
+						
+				}
+			}
+}
+
+	/* CONTACT */
+
+	.section_contact{
+		background: url('../img/fond_contact.jpg') no-repeat center center;
+					background-size: auto 100%;
+		.container_contact{
+			.content_contact{
+				height: 60%;
+				width: 70%;
+				div.content_map{
+					width: 60%;
+					.map{
+							position: absolute;
+							right: -25;
+							width: 65%;
+							height: 100%;
+						}
+				}
+				.contact_txt{
+						background-color: white;
+						position: absolute;
+						left: 0;
+						width: 70%;
+						height: 100%;
+						padding: 5% 35% 5% 7.5%;
+						h1{
+							margin-top: 25px;
+							font-size: 2.5vw;
+						}
+						h3{
+							font-size: 1.5vw;
+							margin: 15px 0 50px 0;
+						}
+						div{
+							margin: 15px 0;
+						}
+						span{
+						}
+						p{
+							font-size: 1.5vw;
+							margin-left: 15px;
+						}
+				}
+			}
+		}
+	}
+}

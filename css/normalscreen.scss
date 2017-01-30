@@ -1,0 +1,282 @@
+
+@include normalscreen{
+/* HOME */
+
+.section_home{
+	div{
+		h1{
+			font-size:15vw;
+		}
+		p{
+			font-size: 3vw;
+			margin: 50px 0 0 0;
+		}
+		span .line_up,.line_down{
+			
+		}
+
+		.line_up{
+			&:after{
+			}
+			
+		}
+		
+		.line_down{
+			&:after{
+			}
+		}
+	}
+}
+
+
+/* SKILLS */
+
+.section_skills{
+	.container_skills{
+		.content_skills{
+			display: inline-block;
+			width:50%;
+			&:first-child{
+				height: 50%;
+				border-right: 1px solid $grey1;
+				padding-left: 10%;
+				.profile{
+					padding-left: 15%;
+					width: 90%;
+					&_img{
+					}
+					.drapeau{
+						width: 70%;
+						margin-bottom: 25px;
+					}
+					h1,h2{
+					}
+					h1{
+						font-size: 2vw;
+					}
+					h2{
+						font-size: 1vw;
+					}
+					p{
+						margin: 1vw auto;
+						font-size: 1vw;
+					}
+				}
+			}
+			&:nth-child(2){
+				height: 50%;
+				border-left: 1px solid $grey1;
+				padding-right: 10%;
+				.skills{
+					position: relative;
+					width: 100%;
+					height: 100%;
+					span{
+							display: block;
+							width: 100%;
+							height: 20%;
+							text-align: center;
+							h1{
+								font-family: 'oswald', sans-serif;
+								font-weight: 700;
+								font-size: 2vw;
+								padding-bottom: 0;
+								margin: 0;
+							}
+						}
+					.skills_div{
+
+						position: absolute !important;
+						display: block !important;
+						width: 100% !important;
+						height: 100% !important;
+						margin-top: -50px !important;
+					}
+					#circle{
+					}
+				}
+			}
+		}
+	}
+}
+
+/* EXPERIENCE */
+
+.section_experience{
+			.experience_article{
+				&:first-child{
+					background-position: 0 top;
+					background-size: 100% auto;
+				}
+				&:nth-child(2){
+					background-position: 0 top;
+					background-size: 100% auto;
+				}
+				&:nth-child(3){
+					background-position: 0 top;
+					background-size: 100% auto;
+				}
+				&:nth-child(4){
+					background-position: 0 top;
+					background-size: 100% auto;
+				}
+				.container{
+					
+					width: 120%;
+					height: 100%;
+					.content{
+					height: 100%;
+					height: 100%;
+					padding: 5% 10% 5% 10%;
+					margin: 0;
+					background-color: rgba(255, 255, 255, 0.8);
+						.txt_top{
+							height: 10%;
+							h1,h2,h3,h4{
+							}
+							.right{
+							}
+							.left{
+							}
+							h4{
+								font-size: 1vw;
+							}
+							h2{
+								font-size: 2vw;
+							}
+						}
+						.txt_middle{
+							height: 90%;
+							h1{
+								font-size: 2.5vw;
+							}
+							p,li{
+								font-size: 1vw;
+							}
+							span.line{
+								width: 20%;
+								height: 10px;
+								margin: 10px 0 50px 0;
+							}
+							a{
+							}
+							.img_vid{
+								display: block;
+								position: absolute;
+								top: 0;
+								right: 0;
+								height: 80%;
+								width: 35%;
+								padding: 0;margin: 0;
+								span.img{
+									height: 33.3%;
+									width: 49%;
+									padding: 0;margin: 0;
+									display: inline-block;
+									overflow: hidden;
+									border-radius: 10px;
+									-webkit-border-radius: 10px;
+									a{
+										height: 100%;
+										width: 100%;
+										img{
+											width: auto;
+											height: 100%;
+											padding: 0;margin: 0;
+										}
+										#di_logo{
+											width: 60% !important;
+											height: auto !important;
+										}
+										#roomview_logo{
+											width: 80% !important;
+											height: auto !important;
+										}
+
+									}
+									.grey{
+											background-color: $grey1;
+									}
+									.orange{
+										background-color: $orange;
+									}
+								}
+								#brochure{
+									width: 99% !important;
+									overflow: hidden;
+									a{
+										img{
+											width: 100%;
+										}
+									}
+								}
+								span.vid{
+									display: block;
+									height: 50%;
+									width: 99%;
+									padding: 0;margin: 0  0 4px 0;
+
+									iframe{
+										height: 100%;
+										width: 100%;
+										border-radius: 10px;
+										-webkit-border-radius: 10px;										
+									}
+								}
+							}
+						}
+				}
+				
+					
+			}
+		}
+}
+
+/* CONTACT */
+
+.section_contact{
+	background: url('../img/fond_contact.jpg') no-repeat center center;
+	background-size: 100% auto;
+	.container_contact{
+		.content_contact{
+			height: 60%;
+			width: 60%;
+			div.content_map{
+				width: 60%;
+				.map{
+						position: absolute;
+						top: 0; right: 0;
+						width: 55%;
+						height: 100%;
+						border-radius: 2.5%;
+						border: 5px solid white;
+						background-color: white;
+					}
+			}
+			.contact_txt{
+					background-color: white;
+					position: absolute;
+					bottom:0; left: 0;
+					width: 60%;
+					height: 60%;
+					opacity: 0.80;
+					padding: 5% 5% 10% 5%;
+					border-radius: 10px;
+					h1{
+						font-size: 2vw;
+					}
+					h3{
+						font-size: 1vw;
+					}
+					div{
+					}
+					span{
+					}
+					p{
+						font-size: 1vw;
+					}
+			}
+		}
+	}
+}
+}

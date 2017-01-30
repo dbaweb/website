@@ -1,3 +1,20 @@
+/* Reponsive breakpoint  */
+
+/* Smartphone (portrait and landscape) */
+@mixin normalscreen{
+  @media screen and (min-width : 1025px){
+    @content;
+  }
+}
+/* Tablet (portrait and landscape) */
+@mixin tablet{
+  @media screen and (min-width : 724px) and(max-width: 1024px){
+    @content;
+  }
+}
+
+/* Centrage horizontal et vertical  */
+
 @mixin center($horizontal: true, $vertical: true) {
   position: absolute;
 

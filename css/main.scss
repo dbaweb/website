@@ -1,6 +1,6 @@
-@import 'font';
+@import 'jquery.fullPage';
 @import 'mixin';
-@import 'mobile';
+@import 'animate';
 
 $orange: #ea8853;
 $grey1: #999;
@@ -14,48 +14,44 @@ html {
     box-sizing: inherit;
 }
 
-html, body {
+html, body{
   padding: 0;
   margin: 0;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
+  position: relative;
 }
 
-section{
+.section{
 	display: block;
 	position: relative;
-	height: 100%;
-	width: 100%;
 }
-
 
 /* HOME */
 
-.home{
+.section_home{
 	background: url('../img/fond_home.jpg') no-repeat center center;
-	background-size: 100% auto;
 	div{
 		display: block;
 		position: relative;
 		height: 100%;
-		width: 80%;
-		opacity: 0.5;
+		opacity: 0.6;
 		h1{
-			font-family: arial;
-			font-size:15vw;
+			font-family: 'oswald', sans-serif;
+			font-weight: 700;
+			font-size: 25vw;
 			text-transform: uppercase;
-			color: whiter;
+			color: black;
 			padding: 0;
 			margin: 0 auto;
+			text-align: center;
 		}
 		p{
 			text-align: center;
-			font-family: caviar_dreamsregular;
-			font-size: 2vw;
+			font-family: 'oswald', sans-serif;
+			font-weight: 400;
+			font-size: 5vw;
 			color: white;
 			padding: 0;
-			margin: 50px 0 0 0;
+			margin: 25px 0 0 0;
 		}
 		span .line_up,.line_down{
 			display: block;
@@ -63,336 +59,290 @@ section{
 			width: 100%;
 			height: 5px;
 			overflow: hidden;
-			
-		}
-
-		.line_up{
-			&:after{
-				content: "";
-				display: block;
-				position: absolute;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				background-color: white;
-				-webkit-animation: fillspan_up 5s linear 0s 1 normal; /* Chrome, Safari, Opera */
-				animation: fillspan_up 5s linear 0s 1 normal;
-			}
-			
-		}
-		
-		.line_down{
-			&:after{
-				content: "";
-				display: block;
-				position: absolute;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				background-color: white;
-				-webkit-animation: fillspan_down 5s linear 0s 1 normal; /* Chrome, Safari, Opera */
-				animation: fillspan_down 5s linear 0s 1 normal;
-			}
-		}
-
-		.arrow_down{
-			display: block;
-			position: relative;
-			margin: 58% auto 50px auto;	
-			width: 50px;
-			height: 50px;
-			border-radius: 25px;
-			background: url('../img/fleche.png') no-repeat center center;
-			background-size: auto 60%;
-			-ms-transform: rotate(90deg); /* IE 9 */
-    		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    		transform: rotate(90deg);
+			background-color: white;
 			
 		}
 	}
 }
 
-@keyframes fillspan_down {
-	from{right:100%;}
-	to{right:0%;}
-}
-@keyframes fillspan_up {
-	from{left:100%;}
-	to{left:0%;}
+@keyframes fill-1 {
+  0%   { height: 100%; }
+  100%  { height: 0%;   }
 }
 
 
 /* SKILLS */
 
-.skills{
+.section_skills{
 	position: relative;
-	.container{
-		width: 80%;
-		height: 70%;
+	.container_skills{
+		width: 100%;
+		height: 100%;
 		position: relative;
-		.content{
+		.content_skills{
 			position: relative;
-			display: inline-block;
+			display: block;
 			float: left;
-			width:50%;
-			height: 100%;
+			width:100%;
 			margin: 0;
 			padding: 0;
 			&:first-child{
-				border-right: 2px solid $grey1;
+				height: 70%;
 				.profile{
-					text-align: center;
-					width: 100%;
-					&_img{
-						display: block;
-						height: 150px;
-						width: 150px;
-						margin: 5% auto;
-						border-radius: 50%;
-						border: 5px solid $orange;
-						background: url('../img/profile2.png') no-repeat top center;
-						background-size: 100% auto;
+					text-align: left;
+					width: 80%;
+					padding: 0 10%;
+					.drapeau{
+						width: 40%;
+						height: 5px;
+						
 					}
+					.black,.jaune,.rouge{
+							display: inline-block;
+							height: 100%;
+							width: 20%;
+							margin: 0 0 25px 0;padding: 0;
+						}
+						.black{
+							background-color: black;
+						}
+						.jaune{
+							background-color: yellow;
+						}
+						.rouge{
+							background-color: red;
+						}
+
 					h1,h2{
-						font-family: League Gothic;
+						font-family: 'oswald', sans-serif;
 						text-transform: uppercase;
 						padding: 0;margin: 0;
 					}
 					h1{
-						font-size: 4vw;
+
+						font-size: 5vw;
+						font-weight: 400;
 					}
 					h2{
-						font-size: 1.5vw;
+						font-size: 3vw;
 						color: $orange;
+						font-weight: 300;
 					}
 					p{
-						width: 80%;
-						margin: 1vw auto;
-						font-family: calibri;
-						font-size: 0.8vw;
+						margin: 2vw auto;
+						font-family: 'oswald', sans-serif;
+						font-weight: 300;
+						font-size: 2.5vw;
 					}
 				}
 			}
 			&:nth-child(2){
-				border-left: 2px solid $grey1;
+				height: 30%;
 				.skills{
 					position: relative;
-					width: 100%;
+					width: 90%;
 					height: 100%;
+					span{
+						display: none;
+					}
+					
 					.skills_div{
-						width: 85%;
-						height: 85%;
-					}
-					#txt{
-						height: 85%;
-						width: 85%;
 						position: relative;
-						.bottom{
-							width: 45%;
-							position: absolute;
-							bottom: 0; right: 0;
-							p{
-								font-family: calibri;
-								font-size: 16px;
-								margin: 0 0 1px 0;
-								text-transform: uppercase;
-							}
-						}
+						display: inline-block;
+						width: 32%;
+						height: 60px;
 					}
-					#circle{
-						position: relative;
-						z-index: 150;
+					#rectangle{
+						margin-top: 25px;
 					}
 				}
 			}
 		}
 	}
-
-	.arrow_down{
-			display: block;
-			position: relative;
-			margin: 0 auto;	
-			width: 50px;
-			height: 50px;
-			border-radius: 25px;
-			background: url('../img/fleche.png') no-repeat center center;
-			background-size: auto 60%;
-			-ms-transform: rotate(90deg); /* IE 9 */
-    		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    		transform: rotate(90deg);
-			
-		}
 }
 
 /* EXPERIENCE */
 
-.experience{
+.section_experience{
 	position: relative;
 	z-index: 5;
-	height: 100%;
-	width: 100%;
 	overflow: hidden;
-	.container_article{
-		position: absolute;
-		top: 0;left: 0;
-		height: 100%;
-		width: 400%;
-		overflow: hidden;
-		.experience_article{
-			position: relative;
-			display: inline-block;
-			float: left;
-			height: 100%;
-			width: 25%;
-			margin: 0;padding: 0;
-			&:first-child{
-				background: url(../img/IslTournai.jpg) center center;
-				background-size: 100% auto;
-			}
-			&:nth-child(2){
-				background: url(../img/office.jpg) center center;
-				background-size: 100% auto;
-			}
-			&:nth-child(3){
-				background: url(../img/office_reunion.jpg) center center;
-				background-size: 100% auto;
-			}
-			&:nth-child(4){
-				background: url(../img/work_alone.jpg) center center;
-				background-size: 100% auto;
-			}
-			.container{
-				width: 85%;
+			.experience_article{
 				height: 100%;
-				background-color: rgba(255, 255, 255, 0.8);
-				padding: 7.5% 15% 7.5% 15%;
-				.txt_top{
-					width:100%;
-					height: 10%;
-					h1,h2,h3,h4{
-						display: inline-block;
-					}
-					.right{
-						float: right;
-					}
-					.left{
-						float: left;
-					}
-					h4{
-						font-family: calibri;
-						text-transform: uppercase;
-						font-size: 1vw;
-						color: $orange;
-					}
-					h2{
-						font-family: League Gothic;
-						font-size: 2vw;
-						color: $grey2;
-					}
+				width: 100%;
+				position: relative;
+				margin: 0;padding: 0;
+				&:first-child{
+					background: url('../img/stluc.jpg') no-repeat 0 top;
+					background-size: auto 100%;
 				}
-				.txt_middle{
-					display: block;
-					position: relative;
+				&:nth-child(2){
+					background: url('../img/office1.jpg') no-repeat 0 top;
+					background-size: auto 100%;
+				}
+				&:nth-child(3){
+					background: url('../img/ordinateur.jpg') no-repeat 0 top;
+					background-size: auto 100%;
+				}
+				&:nth-child(4){
+					background: url('../img/workalone.jpg') no-repeat 0 top;
+					background-size: auto 100%;
+				}
+				.container{
 					width: 100%;
-					height: 90%;
-					h1{
-						font-family: League Gothic;
-						font-size: 3.5vw;
-						text-transform: uppercase;
-						padding: 10px 0 0px 0;
-						margin: 0;
+					height: 100%;
+					.content{
+					width: 75%;
+					height: 100%;
+					padding: 5% 10% 5% 10%;
+					margin: 0;
+					background-color: rgba(255, 255, 255, 0.8);
+						.txt_top{
+							width:100%;
+							height: 5%;
+							h1,h2,h3,h4{
+								display: inline-block;
+							}
+							.right{
+								float: right;
+							}
+							.left{
+								float: left;
+							}
+							h4{
+								font-family: 'oswald', sans-serif;
+								font-weight: 400;
+								text-transform: uppercase;
+								font-size: 3vw;
+								margin: 0;
+								color: $orange;
+							}
+							h2{
+								font-family: 'oswald', sans-serif;
+								font-weight: 700;
+								font-size: 3vw;
+								margin: 0;
+								color: $grey2;
+							}
+						}
+						.txt_middle{
+							display: block;
+							position: relative;
+							width: 100%;
+							height: 95%;
+							h1{
+								font-family: 'oswald', sans-serif;
+								font-weight: 700;
+								font-size: 3.5vw;
+								text-transform: uppercase;
+								padding: 10px 0 0 0;
+								margin: 0;
+							}
+							p,li{
+								font-family: 'oswald', sans-serif;
+								font-weight: 300;
+								font-size: 2.5vw;
+								list-style-type:square;
+							}
+							ul{
+								padding-left: 20px;
+							}
+							span.line{
+								display: block;
+								width: 25%;
+								height: 5px;
+								background-color: $orange;
+								margin: 10px 0 25px 0;
+							}
+							a{
+								float: left;
+							}
+						}
+						.img_vid{
+							display: none;
+						}
 					}
-					p,li{
-						font-family: calibri;
-					}
-					span{
-						display: block;
-						width: 20%;
-						height: 10px;
-						background-color: $orange;
-						margin: 10px 0 50px 0;
-					}
-					a{
-						float: right;
-					}
-				}
-				
+					
+					
 			}
 		}
-	}
-	.experience_nav{
-		position: absolute;
-		width: 100%;
-		z-index: 100;
-		button{
-			position: relative;
-			display: inline-block;
-			z-index: 10;
-			height: 50px;
-			width: 50px;
-			border: none;
-
-			background: url('../img/fleche.png') no-repeat center center;
-			background-color: rgba(255, 255, 255, 0.5);
-			background-size: auto 60%;
-			border-radius: 50%;
-		}
-		.left{
-			float: left;
-			margin-left: 50px;
-			-webkit-transform: rotate(180deg);
-			-moz-transform: rotate(180deg);
-			-ms-transform: rotate(180deg);
-			-o-transform: rotate(180deg);
-			transform: rotate(180deg);
-		}
-		.right{
-			float: right;
-			margin-right: 50px;
-		}
-	}
 }
 
 /* CONTACT */
 
-.contact{
-	background: url('../img/fond_contact.jpg') no-repeat center center;
-	background-size: 100% auto;
+.section_contact{
 	.container_contact{
 		position: relative;
-		height: 60%;
-		width: 60%;
-		background-color: white;
-		opacity: 0.8;
-		.map{
-				position: absolute;
-				top: 0; right: 0;
-				width: 95%;
-				height: 100%;
-				background-color: white;
-				opacity: 0.95;
-			}
+		width: 100%;
+		height: 100%;
 		.content_contact{
-				position: absolute;
-				bottom:0; left: 0;
-				width: 5%;
-				height: 50%;
-				opacity: 0.95;
-				ul{
-					height: 100%;
-					width: 100%;
-					text-decoration: none;
-					margin: 0; padding: 0;
-
-					li{
-						display: block;
+			height: 100%;
+			width: 100%;
+			div.content_map{
+				width: 100%;
+				height: 100%;
+				.map{
+						position: relative;
 						width: 100%;
-						height: 20%;
-						border-top: 2px solid grey;
-						margin: 0; padding: 0;
-					}
-
+						height: 60%;
+						background-color: white;
 				}
+			}
+			.contact_txt{
+					background-color: white;
+					position: relative;
+					width: 100%;
+					height: 40%;
+					padding: 10% ;
+					h1{
+						font-family: 'oswald', sans-serif;
+						font-weight: 700;
+						font-size: 4vw;
+						margin: 0;padding: 0;
+					}
+					h3{
+						font-family: 'oswald', sans-serif;
+						font-weight: 400;
+						font-size: 3vw;
+						color: $orange;
+						margin: 0 0 7.5% 0;padding: 0;
+					}
+					div{
+						display: block;
+						width: 100%;	
+						margin: 2% 0;
+
+					}
+					span{
+						display: inline-block;
+						text-align: center;
+						height: 25px;
+						width: 25px;
+						
+					}
+					.tel{
+							background: url('../img/spriteadbweb.png') no-repeat 0 top;
+							background-position: 0 98%;
+						}
+						.mail{
+							background: url('../img/spriteadbweb.png') no-repeat 0 top;
+							background-position: 6.5% 98%;
+						}
+						.locality{
+							background: url('../img/spriteadbweb.png') no-repeat 0 top;
+							background-position: 13% 98.5%;
+						}
+					p{
+						display: inline-block;
+						font-family: 'oswald', sans-serif;
+						font-weight: 300;
+						font-size: 3vw;
+						margin: 0 0 0 2%;
+					}
+			}
 		}
 	}
 }
+
+@import 'normalscreen';
+@import 'tablet';
